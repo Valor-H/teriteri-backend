@@ -3456,3 +3456,245 @@ play_time=?  WHERE id=?
 [DEBUG][25-09-08][druid.sql.Statement]{conn-10003, pstmt-20018} clearParameters. 
 [DEBUG][25-09-08][druid.sql.Statement]{conn-10003, stmt-20018} clearBatch. 
 [DEBUG][25-09-08][druid.sql.Connection]{conn-10003} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10003} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001,procId-112} connected
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 176.1715 millis. SELECT 1 FROM DUAL
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} created. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [0]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 1.4532 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [1]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [3]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [4]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [5]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [1]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 0.5098 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [2]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 0.3795 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001,procId-113} connected
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 178.0822 millis. SELECT 1 FROM DUAL
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} created. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [0]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 2.3093 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [1]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [3]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [4]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [5]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [1]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 0.5372 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [2]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 0.3314 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001,procId-114} connected
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 174.6229 millis. SELECT 1 FROM DUAL
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} created. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [0]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 3.3186 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [1]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [3]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [4]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [5]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [1]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 0.5006 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [2]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 0.3838 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001,procId-115} connected
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 173.1545 millis. SELECT 1 FROM DUAL
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} created. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [0]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 3.496 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [1]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [2]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [3]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [4]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} Result: [5]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50001} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [1]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 0.5109 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50002} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-connect
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Parameters : [2]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} Types : [INTEGER]
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} executed. 0.3059 millis. SELECT  
+vid
+  FROM video 
+ 
+ WHERE (status = ? AND delete_date IS NULL)
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} open
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} Header: [vid]
+[DEBUG][25-09-08][druid.sql.ResultSet]{conn-10001, pstmt-20001, rs-50003} closed
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, pstmt-20001} clearParameters. 
+[DEBUG][25-09-08][druid.sql.Statement]{conn-10001, stmt-20001} clearBatch. 
+[DEBUG][25-09-08][druid.sql.Connection]{conn-10001} pool-recycle

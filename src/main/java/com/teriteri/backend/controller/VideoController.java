@@ -62,7 +62,7 @@ public class VideoController {
     public CustomResponse randomVideosForVisitor() {
         CustomResponse customResponse = new CustomResponse();
         int count = 11;
-        Set<Object> idSet = redisUtil.srandmember("video_status:1", count);
+        Set<Object> idSet = redisUtil.srandmember("video_status:0", count);
         List<Map<String, Object>> videoList = new ArrayList<>();
         if (idSet != null && !idSet.isEmpty()) {
             videoList = videoService.getVideosWithDataByIds(idSet, 1, count);
@@ -137,7 +137,7 @@ public class VideoController {
             return customResponse;
         }
         Video video = (Video) map.get("video");
-        if (video.getStatus() != 1) {
+        if (video.getStatus() != 0) {
             customResponse.setCode(404);
             customResponse.setMessage("特丽丽没找到个视频QAQ");
             return customResponse;

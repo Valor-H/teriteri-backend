@@ -109,15 +109,15 @@ directory:
 
 oss:
   # 对象存储桶的名字
-  bucket: valor-bucket
+  bucket: ***
   # 外网访问的域名，记得最后面的"/"
-  bucketUrl: https://valor-bucket.oss-cn-shanghai.aliyuncs.com/
+  bucketUrl: https://***.oss-cn-shanghai.aliyuncs.com/
   # 地域节点
   endpoint: oss-cn-shanghai.aliyuncs.com
   # 有访问权限的用户的 access-key-id
-  keyId: LTAI5t7maQJb8GsngScowgTV
+  keyId: ***
   # 有访问权限的用户的 access-key-Secret
-  keySecret: 6gxIJaYPGrdZTF9yFrY2ndUs6sKtpY
+  keySecret: ***
   # ossClient实例维持的空闲时间，单位毫秒，超过会自动关闭释放资源
   idleTimeout: 10000
 
